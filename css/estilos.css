@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+:root {
+  
+}
+
+/* aqui le doy forma al cuerpo color, y lo centro el display es para que cuando se centre se quede bien, le damos formato a las letras.. */
+body {
+  background-color: lightpink;
+  color: black;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+/* el conteiner es donde van dentro las letras y a qui le doy color , margenes .. el padding es para que se separe el titulo del margen */
+.container {
+  background-color: linen;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1 rem;
+}
+/* el h1 es el titulo por asi decirlo y aqui lo estoy centrando dentro del contenedor */
+h1 {
+  text-align: center;
+}
+
+.campo-formulario {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 0.5 rem;
+}
+input {
+  padding: 0.5rem;
+  border: none;
+}
+
+button {
+  margin: 2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  border:color black;
+  border-radius: 30px;
+
+}
