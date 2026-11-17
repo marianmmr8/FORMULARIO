@@ -14,3 +14,7 @@ Los campos son obligatorios y el formulario incluye un botón para enviarlos.
 
 - HTML
 - CSS
+
+## Estilo
+
+El título del formulario está centrado con la propiedad CSS `text-align: center;`.
